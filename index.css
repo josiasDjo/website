@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;   
+}
+body {
+    background-color: black;
+    color: white;
+}
+a {
+    color: white;
+}
+.nav {
+    width: 94%;
+    margin: auto;
+    /* margin-left: 70px; */
+    display: flex;
+    /* background-color: aqua; */
+    /* position: fixed; */
+}
+.nav .part1 {
+    display: flex;
+    text-align: left;
+}
+.nav .part2 {
+    display: flex;
+    text-align: right;
+    right: 5%;
+    position: absolute;
+}
+.nav li{
+    margin: 20px;
+    font-family: sans-serif;
+
+}
+.nav .part2 li a:hover {
+    border: 2px #fff solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ligne {
+    width: 90%;
+    margin: auto;
+    margin-left: 45px;
+    top: 50px;
+    position: fixed;
+}
+section {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+section .div1 p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(251, 233, 195);
+    padding: 30px 0 10px 0;
+}
+section .div2 p {
+    font-size: 140px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+section .contenaire {
+    width: 90%;
+    display: flex;
+
+}
+section .div31 {
+        width: 50%;
+        margin-right: 40px;
+}
+section .div3 {
+    width: 50%;
+    align-items: flex-end;
+    border: #fff 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    /* flex: content; */
+}
+section .div3 p {
+    text-align: right;
+    font-family: sans-serif;
+}
+section .div3 button {
+    border-radius: 8px;
+    padding: 10px;
+    width: 160px;
+    margin: 20px 0 0 240px;
+}
+section .div3 button a {
+    color: black;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+section .sec2 {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+section .sec2 .hey p {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+section .sec2.contenaire {
+    width: 90%;
+    display: flex;
+}
+section .sec2 .BREF {
+    margin: 40px 0;
+    width: 50%;
+    align-items: flex-end;
+    border: #fff 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+section .sec2 .BREF p {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    align-content: space-between;
+}
+footer ul {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: flex-end;
+    align-content: space-between;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+footer .ul2 {
+    width: 15%;
+    text-align: right;
+    position: absolute;
+    right: 5%;
+}
+footer .ul2 li {
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
