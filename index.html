@@ -5,19 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Djo Dev</title>
     <link rel="stylesheet" href="index.css">
+
+    <script>
+        function menubug () {
+            var x = document.getElementById("test1");
+            if (x.className === "navbar") {
+                x.className += "responsive";
+            } else {
+                x.className = "navbar"; 
+            }
+        }
+    </script>
+
 </head>
 <body>
-    <div class="nav">
-        <ul class="part1">
-            <li>Djo Dev</li>
-            <li>DEVELOPER WEB</li>
-        </ul>
-        <ul class="part2">
-            <li><a href="#">Work</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#foot">Contact</a></li>
-        </ul>
+    <nav class="navbar" id="test1">
+        <div class="nav" id="listbarre">
+            <ul class="part1">
+                <li>Djo Dev</li>
+                <li>DEVELOPER WEB</li>
+            </ul>
+            <ul class="part2">
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#foot">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="checkb">
+        <label for="check" onclick="menubug();">Menu<img src="icons/menu-burger.png"></label>
+        <input type="checkbox" id="check">
     </div>
+
     <div class="ligne"><hr></div>
 
     <section>
@@ -58,5 +77,6 @@
         </ul>
         
     </footer>
+
 </body>
 </html>

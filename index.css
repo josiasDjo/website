@@ -7,6 +7,7 @@
 body {
     background-color: black;
     color: white;
+    min-width: 220px;
 }
 a {
     color: white;
@@ -45,6 +46,22 @@ a {
     margin-left: 45px;
     top: 50px;
     position: fixed;
+}
+.checkb {
+    width: 35px;
+    /* height: 27px; */
+    background-color: white;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    /* display: none; */
+}
+.checkb input {
+    /* display: none; */
+}
+.checkb img {
+    width: 25px;
+    height: 25px;
 }
 section {
     position: relative;
@@ -156,4 +173,101 @@ footer .ul2 li {
     font-family: sans-serif;
     font-size: 25px;
     font-weight: bolder;
+}
+
+@media screen and (max-width:920px) {
+    section .div2 p {
+        font-size: 100px;
+    }
+    section .div3 button {
+        border-radius: 8px;
+        padding: 10px;
+        width: 160px;
+        margin: 20px 0 0 190px;
+    }
+}
+@media screen and (max-width:830px) {
+    section .div3 button {
+        border-radius: 8px;
+        padding: 10px;
+        width: 160px;
+        margin: 20px 0 0 150px;
+    }
+}
+@media screen and (max-width:760px) {
+    section .div3 button {
+        border-radius: 8px;
+        padding: 10px;
+        width: 160px;
+        margin: 20px 0 0 110px;
+    }
+}
+@media screen and (max-width:660px) {
+    section .div2 p {
+        font-size: 80px;
+    }
+    section .div3 button {
+        border-radius: 8px;
+        padding: 10px;
+        width: 160px;
+        margin: 20px 0 0 80px;
+    }
+}
+@media screen and (max-width:560px) {
+    section .div2 p {
+        font-size: 50px;
+    }
+    section .div3 button {
+        border-radius: 8px;
+        padding: 10px;
+        width: 160px;
+        margin: 20px 0 0 40px;
+    }
+    section .div31 {
+        display: none;
+    }
+    section .div3 {
+        width: 90%;
+    }
+    section .sec2 .BREF {
+        width: 100%;
+    }
+}
+@media screen and (max-width:560px) {
+    section .div3 button {
+        border-radius: 8px;
+        padding: 10px;
+        width: 160px;
+        margin: 20px 0 0 20px;
+    }
+    .ligne {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    .checkb {
+        display: block;
+    }
+}
+@media screen and (max-width:400px) {
+    section .div3 button {
+        border-radius: 8px;
+        padding: 10px;
+        width: 160px;
+        margin: 20px 0 0 0;
+    }
+} 
+@media screen and (max-width:340px) {
+    section .div2 p {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:250px) {
+    section .div2 p {
+        font-size: 30px;
+    }
+    section .div1 p {
+        font-size: 20px;
+    }
 }
